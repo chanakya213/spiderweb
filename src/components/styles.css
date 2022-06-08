@@ -1,0 +1,45 @@
+.navbar-light {
+  background-color: rgba(179, 177, 177, 0.611) !important;
+}
+#logoimg1 {
+  border-radius: 100%;
+}
+#profile {
+  width: 30%;
+  height: 20%;
+  border-radius: 50%;
+}
+
+.textData {
+  background-color: rgba(179, 177, 177, 0.611) !important;
+}
+.details {
+  background-color: rgba(179, 177, 177, 0.611) !important;
+}
+.mainContainer {
+  width: 48%;
+}
+.smallBoxes {
+  border-radius: 5px;
+  width: 48%;
+}
+.bigBoxes {
+  border-radius: 5px;
+}
+.card {
+  width: 22rem;
+}
+.card-img-top {
+  width: 10rem;
+  height: 12rem;
+}
+.bg-secondary1 {
+  border-radius: 5px;
+  background-color: rgba(210, 210, 210, 0.821) !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .mainContainer {
+    width: 100%;
+  }
+}
