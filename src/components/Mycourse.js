@@ -4,7 +4,7 @@ import { FaMastodon, FaAutoprefixer } from "react-icons/fa";
 const Mycourse = () => {
   return (
     <>
-      <h1 className="text-center mt-2">My Courses</h1>
+      <h1 className="text-center m-4">My Courses</h1>
       <div className="container-fluid p-3 d-flex w-100 justify-content-around mt-3 flex-wrap">
         <div className="card">
           <img src="./course1.png" className="card-img-top" alt="..." />

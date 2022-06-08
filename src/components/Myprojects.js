@@ -4,7 +4,7 @@ import { FaWalking } from "react-icons/fa";
 const Myprojects = () => {
   return (
     <>
-      <h1 className="text-center mt-2">My Projects</h1>
+      <h1 className="text-center mt-4">My Projects</h1>
       <div className="container-fluid p-3 d-flex w-100 justify-content-around mt-3 flex-wrap">
         <div className="card">
           <img src="./card2.jpg" className="card-img-top" alt="..." />
