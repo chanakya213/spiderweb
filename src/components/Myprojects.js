@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import { FaWalking } from "react-icons/fa";
+
 const Myprojects = () => {
   return (
     <>

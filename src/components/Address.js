@@ -1,13 +1,15 @@
 import React from "react";
+import EditBtn from "./EditBtn";
 import "./styles.css";
 const Address = () => {
+  const name = "Edit";
   return (
     <>
       <div className="details d-flex flex-wrap container-fluid mt-3 w-100 justify-content-between pb-3">
         <div className="mainContainer">
           <div className="d-flex flex-nowrap justify-content-between mt-3 px-2">
             <h3 className="text-dark">Contact Details</h3>
-            <h3>Edit</h3>
+            <EditBtn name={name} />
           </div>
           <div className="d-flex bigBoxes w-100 h-20 bg-light">
             <h5 className="text-dark p-3">Chan Chanakya</h5>
@@ -31,7 +33,7 @@ const Address = () => {
         <div className="mainContainer">
           <div className="d-flex flex-nowrap justify-content-between mt-3 px-2">
             <h3 className="text-dark">Address Details</h3>
-            <h3>Edit</h3>
+            <EditBtn name={name} />
           </div>
           <div className="d-flex w-100 h-20 bg-light">
             <h5 className="text-dark p-3">address,near by vishwabrahmana </h5>

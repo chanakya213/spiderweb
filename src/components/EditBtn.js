@@ -1,9 +1,12 @@
 import React from "react";
-
-const EditBtn = () => {
+import "./styles.css";
+import { FaPen } from "react-icons/fa";
+const EditBtn = ({ name }) => {
   return (
     <>
-      <div className="EditBtn">Edit</div>
+      <div className="EditBtn">
+        <FaPen className="fapen" /> {name}
+      </div>
     </>
   );
 };

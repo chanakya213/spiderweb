@@ -1,13 +1,16 @@
 import React from "react";
 import "./styles.css";
+import EditBtn from "./EditBtn";
 import { FaMastodon, FaAutoprefixer } from "react-icons/fa";
 const Mycourse = () => {
+  const name = "Expert";
   return (
     <>
       <h1 className="text-center m-4">My Courses</h1>
       <div className="container-fluid p-3 d-flex w-100 justify-content-around mt-3 flex-wrap">
-        <div className="card">
+        <div className="card position-relative">
           <img src=" ./course3.png" className="card-img-top" alt="..." />
+          <div className="EditBtn position-absolute">{name}</div>
           <div className="card-body">
             <h5 className="card-title font-weight-bold">Sql Developer</h5>
             <div className="cardData d-flex justify-content-between">
@@ -30,6 +33,7 @@ const Mycourse = () => {
         </div>
         <div className="card">
           <img src=" ./course1.png" className="card-img-top" alt="..." />
+          <div className="EditBtn position-absolute">{name}</div>
           <div className="card-body">
             <h5 className="card-title">React Developer</h5>
             <div className="cardData d-flex justify-content-between">
@@ -52,6 +56,7 @@ const Mycourse = () => {
         </div>
         <div className="card">
           <img src="./course2.jpg" className="card-img-top" alt="..." />
+          <div className="EditBtn position-absolute">{name}</div>
           <div className="card-body">
             <h5 className="card-title">Angular Developer</h5>
             <div className="cardData d-flex  justify-content-between">
