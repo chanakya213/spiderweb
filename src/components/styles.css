@@ -1,3 +1,6 @@
+* {
+  font-family: Arial;
+}
 .navbar-light {
   background-color: rgba(179, 177, 177, 0.611) !important;
 }
