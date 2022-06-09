@@ -45,6 +45,9 @@
   .mainContainer {
     width: 100%;
   }
+  .card {
+    margin-top: 15px;
+  }
 }
 .EditBtn {
   width: 60px;
